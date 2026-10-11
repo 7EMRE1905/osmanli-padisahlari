@@ -12,8 +12,8 @@ Osmanlı İmparatorluğu'nun kuruluşundan (1299 - Osman Gazi) son dönemine (19
 ## 📖 Projenin Hikayesi
 
 > 💡 **Bir Lise 10. Sınıf Proje Ödevinden Açık Kaynağa:**  
-> Bu proje, lise 10. sınıf döneminde tarih ve web tasarımı ödevi olarak saf HTML ve CSS kullanılarak hazırlanmıştır.  
-> 
+> Bu proje, lise 10. sınıf döneminde bilişim teklonojileri web tasarımı ödevi olarak saf HTML ve CSS kullanılarak hazırlanmıştır.
+>
 > Web geliştirmeye yeni adım atan genç arkadaşlara saf (Vanilla) HTML/CSS ile nasıl sayfa mimarisi ve gezinti (navigation) kurulabileceğini göstermek, tarih ödevi hazırlayan öğrencilere derli toplu açık kaynak bir kaynak sunmak ve nostaljik bir anıyı geleceğe taşımak amacıyla açık kaynak olarak paylaşılmıştır.
 
 ---
@@ -59,6 +59,7 @@ Projeyi çalıştırmak için hiçbir terminal komutu veya paket yöneticisi ger
 ## 📚 Kaynakça
 
 Sitedeki tarihsel bilgiler ve veriler aşağıdaki güvenilir kaynaklar referans alınarak derlenmiştir:
+
 - [Türk Tarih Kurumu (TTK) - Osmanlı Padişahları](https://ttk.gov.tr/osmanli-padisahlari/)
 - [Wikipedia - Osmanlı Padişahları Listesi](https://tr.wikipedia.org/wiki/Osmanl%C4%B1_padi%C5%9Fahlar%C4%B1_listesi)
 - [İstanbul Gedik Üniversitesi - Kronolojik Sıralama ve Dönemler](https://uzemigunsem.gedik.edu.tr/osmanli-padisahlari-kronolojik-siralama-ve-donemleri-hakkinda-kisa-bilgiler)
