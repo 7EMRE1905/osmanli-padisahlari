@@ -1,0 +1,123 @@
+/*Genel Stiller*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50; /* Tüm sayfanın arka plan rengi */
+    color: #333;
+    line-height: 1.6;
+}
+
+/*Başlık Bölümü*/
+header {
+    position: relative;
+    background-color: #2c3e50; /* Başlık arka plan rengi */
+    color: white;
+    padding: 20px; /* Boşluk ayarı */
+    text-align: center;
+}
+
+/*Başlık Metni*/
+.header-title {
+    font-size: 2.5em; /* Yazı boyutu */
+    color: #fff; /* Yazı rengi */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Gölge efekti */
+    margin: 0; /* Üstte ve altta boşlukları kaldır */
+    padding: 10px 0; /* Yukarı ve aşağı boşluk */
+    font-family: 'Georgia', serif; /* Farklı bir font ailesi */
+    letter-spacing: 2px; /* Harfler arasındaki boşluk */
+    text-align: center; /* Metni ortala */
+}
+
+/*Logo Konumlandırması*/
+.logo-left, .logo-right {
+    position: absolute;
+    top: 10px;
+}
+
+.logo-left {
+    left: 10px;
+}
+
+.logo-right {
+    right: 10px;
+}
+
+/*Ana İçerik */
+main {
+    padding: 20px;
+    max-width: 1200px; /* Ana içerik maksimum genişlik */
+    margin: auto; /* Merkeze yerleştir */
+    background: white; /* Beyaz arka plan */
+    border-radius: 8px; /* Kenar yuvarlatma */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+/*H2 Başlıkları*/
+h2 {
+    text-align: center;
+    color: #34495e; /* Başlık rengi */
+}
+
+/*Padişah Tablosu */
+.padişah-table {
+    width: 100%;
+    border-collapse: collapse; /* Kenar boşluklarını kaldır */
+    margin: 20px 0; /* Üst ve alt boşluk */
+}
+
+.padişah-table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top; /* Üstten hizala */
+}
+
+.padişah-table img {
+    width: 50px; /* Resim genişliği */
+    height: 50px; /* Resim yüksekliği */
+    border-radius: 50%; /* Yuvarlak resim */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Gölge efekti */
+}
+
+.padişah-table h3 {
+    margin: 5px 0 0 0; /* Başlıkların üstünde boşluk */
+    color: #2c3e50; /* Başlık rengi */
+}
+
+/* Alt Bilgi Bölümü*/
+footer{
+    background: #2c3e50; /* Footer arka plan rengi */
+    color: white; /* Yazı rengi */
+    padding: 20px 0; /* Üst ve alt boşluk */
+    text-align: center; /* Metni ortala */
+}
+
+.footer-background {
+    max-width: 1200px; /* Maksimum genişlik */
+    margin: 0 auto; /* Merkeze yerleştir */
+    padding: 20px; /* İç boşluk */
+    background: rgba(0, 0, 0, 0); /* Yarı şeffaf arka plan */
+    border-radius: 8px; /* Kenar yuvarlatma */
+}
+
+h3 {
+    margin: 10px 0; /* Başlıkların üstünde ve altında boşluk */
+}
+
+/*Linkler*/
+a {
+    color: #0dcaf0; /* Link rengi */
+    text-decoration: none; /* Alt çizgiyi kaldır */
+}
+
+a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde alt çizgi ekle */
+}
+
+/* Resimler */
+.rounded-image {
+    width: 350px; /* Resim genişliği */
+    height: 350px; /* Resim yüksekliği */
+    border-radius: 50%; /* Yuvarlaklaştırma */
+    object-fit: cover; /* Resmin boyutlandırılması */
+}
